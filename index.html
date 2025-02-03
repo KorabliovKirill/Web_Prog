@@ -91,6 +91,16 @@
 			</div>
 		</section>
 
+		<section id="comments-section" class="comments-section">
+			<h2>Комментарии</h2>
+			<form id="comment-form">
+				<input type="text" id="author" placeholder="Ваше имя" required />
+				<textarea id="text" placeholder="Ваш комментарий" required></textarea>
+				<button type="submit">Добавить комментарий</button>
+			</form>
+			<div id="comment-list"></div>
+		</section>
+
 		<!-- Контакты -->
 		<section id="contacts" class="contacts">
 			<h2>Контакты</h2>
@@ -114,5 +124,7 @@
 		<footer>
 			<p>&copy; 2024 Кораблёв Кирилл Вячеславович. Все права защищены.</p>
 		</footer>
+
+		<script src="scripts/comments.js"></script>
 	</body>
 </html>
