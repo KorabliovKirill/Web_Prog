@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	background-color: black;
+	color: cyan;
+	font-family: 'Arial', sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	text-shadow: 0 0 10px cyan;
+}
+
+canvas {
+	border: 2px solid cyan;
+	background-color: black;
+	display: block;
+	margin: 20px auto;
+}
